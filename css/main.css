@@ -1,0 +1,252 @@
+*{
+	text-align: center;
+	letter-spacing: .1rem;
+	font-size: calc(8px + .8vw);
+}
+
+
+header{
+	padding: 10vw;
+	background-image: url("citgo.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+
+}
+
+#head{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+	width: 60vw;
+	margin: auto;
+	
+	
+
+}
+
+#welcome{
+color:#292e36;
+}
+
+nav{
+    padding: 3vw;
+    box-sizing: border-box;
+    text-align: center;
+  
+  
+}
+
+li.nav{
+	display: inline; 
+  	list-style-type: none;
+	padding-left: 2vw; 
+	padding-right: 2vw;
+	font-size: calc(8px + .8vw);
+	
+  	
+}
+
+.navlink:hover {
+	background-color: #292e36;
+	color: white;
+	text-decoration: none;
+	
+}
+
+.navlink {
+
+  text-decoration: none;
+  color: #292e36;
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+  transition: background-color 1s;
+  
+}
+
+body {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    position: relative;
+    color:#3f4752;
+    line-height: 1.7;
+    background-color: white;
+    
+   
+}
+
+img {
+    max-width: 80%;
+    max-height: 80%;
+    
+}
+
+#main {
+	margin: auto;
+    max-width: 1150px;
+    padding-bottom: 4vw;
+}
+
+#introduction {
+	padding-bottom: 2vw;
+}
+
+footer {
+	color: white;
+	background-color:#3f4752;
+	padding-top: 2vw;
+  	padding-bottom: 2vw;
+  
+
+}
+
+footer p{
+	margin: auto;
+    max-width: 1150px;
+    font-size: calc(3px + .8vw);
+
+}
+
+footer a{
+
+	font-size: calc(3px + .8vw);
+
+}
+
+#top-bar{
+	background-color: white;
+	padding: 1.5vw;
+	text-align: left;
+
+}
+
+#top-bar h2 {
+	text-align: left;
+}
+
+.icon{
+	max-height: 50%;
+	max-width: 50%;
+	margin: 1vw;
+
+}
+
+
+.section1{
+	margin-bottom: 2vw;
+}
+
+
+
+#paper{
+	border: 1px solid black;
+	max-width: 80%;
+    max-height: 80%;
+
+}
+
+.img-caption{
+	font-size: calc(6px + .8vw);
+}
+
+.quote #quote em{
+	
+	line-height: 2;
+	font-size: calc(25px + .8vw);
+	font-family: "Snell Roundhand", cursive;
+	
+}
+
+#quote{
+	line-height: 2;
+	font-size: calc(25px + .8vw);
+
+}
+
+#top-bar-label{
+	padding: 1vw;
+}
+
+.calc-buttons{
+	color: white;
+	background-color:#3f4752;
+	padding: 5px 15px;
+	margin-left: .5vw;
+	margin-right: .5vw;
+	margin-top: .5vw;
+	border: 0px;
+	transition-duration: 0.5s;
+}
+
+.calc-buttons:hover{
+	background-color: #292e36;
+
+}
+
+input{
+
+	margin: .5vw;
+	padding: .5vw;
+	border: 0px;
+	background-color:#3f4752;
+	color: white;
+	transition-duration: 0.5s;
+	
+
+}
+
+input:hover {
+
+	background-color: #292e36;
+
+}
+
+#calc {
+
+	text-align: left;
+	padding-bottom: 7vw;
+
+}
+
+#buttons{
+
+text-align: left;
+
+}
+
+#result{
+	text-align: left;
+	margin-left: 5px;
+	font-size: calc(15px + .8vw);
+	color: #292e36;
+}
+
+#result2 {
+	text-align: left;
+	margin-left: 5px;
+	font-size: calc(15px + .8vw);
+	color: #292e36;
+}
+
+
+ 
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+

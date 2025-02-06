@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+
+<head>
+<title>A J I | Jenna's Portfolio</title>
+
+<meta charset="utf-8">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+crossorigin="anonymous">
+
+<link rel = "stylesheet" href = "css/main.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400&display=swap" rel="stylesheet"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+	<div id = "top-bar">
+	<h2>Jenna</h2>
+	</div>
+
+	<header>
+	<div id = "head">
+    <h1 id = "web-title"> A J I </h1>
+    
+      <p>A glance at the portfolios of three students with very different academic interests.</p>
+    </div>
+	</header>
+		
+		<nav>
+		
+			<ul>
+  				<li class = "nav"><a href="index.html" class = "navlink">Home</a></li>
+  				<li class = "nav"><a href="alexandra.html" class = "navlink">Alexandra</a></li>
+  				<li class = "nav"><a href="jenna.html" class = "navlink">Jenna</a></li>
+ 			 	<li class = "nav"><a href="isabelle.html" class = "navlink">Isabelle</a></li>
+			</ul>   
+	
+		</nav>
+	
+	<div id = "main">
+	
+	<div id = "introduction">
+	<h1 id= "welcome"></h1>
+	<script src="https://unpkg.com/typeit@8.0.7/dist/index.umd.js"></script>
+	<script>
+	
+	new TypeIt("#welcome", {speed: 200, lifelike: true,})
+		.type("Jenna's Porfolio")
+		.go();
+		
+	</script>
+	
+			<p>The first question anyone asks you after you've told them you're a college student is <em>"What do you study?"</em>.
+			When I respond, I'm often met with comments like <em>"That sounds like a lot of work!"</em>, and 
+			<em>"You must be smart!"</em> – which really means <em>"Why would you do that to yourself?"</em> and <em> "Are you able
+			to handle that?"</em>. This page serves to answer the former, the latter is still up to debate.
+			<br><br>
+			An Economics and Math major with a Computer Science minor sounds like a lot. And it is, but not nearly as much 
+			as you probably think. This "portfolio" essentially serves to share my some of my favorite aspects of the fields I study,
+			and maybe prove that Math is cool.</p>
+	</div>
+	
+	
+	<button type="button" class="collapsible" style = "display: inline-block;">	<h2> Economics </h2>
+	<p class = "section1">The major I started with, and spend the least time with, but care the most about.</p></button>
+	
+	<div class = "container-fluid">
+	<div class = "row">
+
+	
+		<div id = "content1" class = "col-lg-6">
+		<h4>My Journey Into Economics</h4>
+		<p>I came into college like every 18 year old girl who was good at science in high school and decided
+		Neuroscience was for me. After about a month of college, Neuroscience was decidedly not for me. The reason I ended up majoring in Economics, despite 
+		the fact that I had taken AP Macro in high school and declared it extremely boring, is a long story.</p>
+	
+		<div class = quote>
+		<p id = "quote"><em>"The political problem of mankind is to combine three things: economic efficiency, social justice and individual liberty."</em><br>
+		- John Maynard Keynes</p>		
+		</div>
+		
+		<p>This is my favorite quote not just from Keynes, but from any economist. I often find myself at odds
+		with people I align with politically and socially. Not because I disagree with them, but because I always discuss the cost
+		of any policy, even if its one I support.</p>
+		
+		<img src = "images/rates_graph.png" alt = "graph of credit delinquencey rates and debt overtime">
+		<p class = "img-caption">This is a graph I created with python for my current research project. We are working
+		with consumer delinquency rates. Our interests are in the large spikes you see, and if they lead to
+		increases in public debt. The largest spike you see in 2008 is due to the housing market crash, delinquencies rates
+		on mortgages sky-rocketed.</p>
+		
+		
+		</div>
+	
+	
+	
+	
+	
+	
+		<div id = "content2" class = "col-lg-6">
+		<img src = "images/intropaper.png" alt = "title page for academic paper" id = "paper">
+		<p class = "img-caption">The title page to my research paper.</p>
+		<h4>Current Work</h4>
+
+		<p>This whole semester I have been working on a research paper with two other collaborators, Supreet Bhavireddy and Adi Jahic. 
+		Our course is about one of the most import topics in econometric analysis, time series econometrics. Time series models are extremely important
+		to economics. At the most basic level, time series models regress current values on past values. For example, we can use and AR(1) model to regression the current inflation rate
+		on the inflation rate from the inflation rate from the year before. We use these models to forecast future economics variables in the short run.
+		A lot of economic fluctuations depend on past values, inflation this year not independent from inflation last year.</p>
+		
+		<p>We are still in the process of conducting tests and constructing our models, but our paper is exploring the relationship between
+		consumer delinquency rates and federal debt. Our theory is that when the economy is approaching a recession, delinquency rates rise, and in response
+		to a recession, federal debt rises because of an increase in government spending. We are in the process on constructing a VAR model and hopefully also
+		use Co-integration to examine their relationship. </p>
+		
+	
+		
+	
+	
+		</div>
+	
+	
+	
+	
+	
+		
+	
+		
+		
+	</div>
+	</div>
+	
+
+	
+	
+	
+	<div id = "math">
+	<button type="button" class="collapsible" style = "display: inline-block;"><h2>Math</h2>
+	<p class = "section1">The major I tell people first so they don't ask me what I think about the economy right now.</p></button>
+	<div class = "container-fluid">
+	<div class = "row">
+	
+		<div id = "content1" class = "col-lg-6">
+		<h4>Why Math?</h4>
+		<p>On my first advising meeting in the Economics department my advisor silently looked 
+		over my transcript, and asked me <em>"Are you good at math?"</em>. I told him that I was. He then said
+		<em>"Okay, you're going to do the Math major too."</em>. He then moved to Ireland I never heard
+		from him again. </p>
+		
+		<p>Math was the subject I had always been best at, but I had never considered studying it post-college because it didn't seem
+		like something that would be interesting. But as I began to study it more, I realized the math is incredibly interesting.
+		Math <em>is</em> cool.</p>
+		
+		<img src = "images/horn.jpg" alt = "gabriel's horn diagram">
+		<p class = "img-caption">A diagram of Gabriel's Horn. Drawn by Jenna. as X goes to infinity,
+		the horn's tail extends to infinity.</p>
+		
+
+		</div>
+		
+		<div id = "content2" class = "col-lg-6">
+		<img src = "images/gabe.png" alt = "math equations for gabriels horn">
+		<p class = "img-caption">Gabriel's Horn equations written by Jenna in LateX.</p>
+		<h4>My Favorite Math Problem</h4>
+		<p> Gabriel's horn is a famous Calc 2 problem. These equations 
+		calculate the volume and surface area of a long horn shape as the tail of the horn 
+		tends to infinity. When you calculate the surface area using indefinite integrals, you will find that it is infinite. 
+		However, when you calculate volume, is just simply &#960;. This is a mind-bending idea. How is it possible
+		for a solid to have infinite area, but a finite volume? If you know a bit of Calc 2, this
+		problem is doable on your own, and you can see how the math works. Even if you don't, the concept
+		itself is still fascinating. I hope this has convinced you math is cool.</p>
+		
+		</div>
+	
+	
+	
+	
+	</div>
+	</div>
+	
+	
+	
+	<button type="button" class="collapsible" style = "display: inline-block;"><h2>Computer Science</h2>
+	<p class = "section1">The minor that for some reason takes up the majority of my time.</p></button>
+	<div class = "container-fluid">
+	<div class = "row">
+	
+		<div id = "content1" class = "col-lg-6">
+		<h4>My Love-Hate Relationship with Coding</h4>
+		<p>Coding is not only something I study, but it has also become my job, and now my 
+		hobby. I am currently in two CS classes and I am a CA for another. Coding has begin to 
+		bleed into my dreams. I wake up in the middle of the night because my mind started to code. 
+		I have nightmares of null-pointer exceptions. Despite all this, I really do 
+		like to code. You can find some code I've written or the code for this website on my <a href = "https://github.com/jennapeters917" class = "bodylink">Github</a> profile!</p>
+
+		
+		
+		<img src = "images/code.png" alt = "block of code">
+		<p class = "img-caption">An algorithm written by Jenna.</p>
+		<p> This block of code is a triumph and defeat for me. I spent a long time
+		designing and tweaking this algorithm. But I was so relieved when It worked. The algorithm creates a 
+		two clusters of points about two lines, which you can specify the slope and intercept for. I wrote it for my CS 506 class. Apparently we
+		could just use a method from the NumPy library, but I wrote this before I knew. While Im upset by the lost time,
+		I'm proud I could write an algorithm on my own.
+		</p>
+		
+		</div>
+
+		<div id = "content2" class = "col-lg-6">
+		<img src = "images/ORB.png" alt = "large black orb">
+		<p class = "img-caption">A network graph I made in Python for my Data Science class.</p>
+		
+		<h4>What progress have I made in a year?</h4>
+		<p>A bit over a year ago I began CS 111 and coded for the first time in my life. Since then
+		I have been constantly entrenched in coding. My best language by far is Python, which 
+		is common among most Computer Science students at Boston University. My next best would be Java, but its not
+		a language I spend much time with. The purpose of this minor is so that I have the coding skills
+		to do economic research, and Python is the one of best languages to do any sort of math, modeling, or
+		visualizations. Java is object-oriented, I don't do much object oriented programming. I know a bit of R.
+		I can use Stata, but I have a hate-only relationship with it. Python can do everything Stata does, and Stata has horrible
+		documentation.</p>
+		
+
+		</div>	
+	
+	</div>
+	</div>
+	
+<!-- in-line styling to avoid issues with bootstrap  -->
+<style>
+.container-fluid {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+}
+
+.collapsible{
+	color: #3f4752;
+	background-color: white;
+	border: 0px;	
+	transition: color 1s;
+	padding-top: 1vw;
+	margin: auto;
+	transition: transform .2s;
+
+}
+
+.collapsible:hover {
+
+	transform: scale(1.2);
+	
+
+}
+</style>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</div>
+	
+	</div>
+	
+	<footer>
+	<p>Copyright &copy; 2021 by Jenna Peters, Isabelle Ki, Alexandra Purdy. All Rights Reserved.</p>
+	<a href="credits.html" style="color:white;">Credits Page</a> 
+	</footer>
+	
+</body>
+
+</html>
